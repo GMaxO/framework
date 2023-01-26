@@ -1,0 +1,72 @@
+plugins {
+    id 'java'
+    id "io.qameta.allure" version "2.9.6"
+}
+
+
+group 'mg.cronos'
+version '1.0-SNAPSHOT'
+
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(Test) {
+    systemProperty "file.encoding", "UTF-8"
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+//version
+def testNGVersion = '7.5'
+def restAssuredVersion = '4.4.0'
+def lombokVersion = '1.18.22'
+def jacksonVersion = '2.13.1'
+def javaxMailVersion = '1.6.2'
+def jsoupVersion = '1.14.3'
+def allureVersion = '2.18.1'
+def selenideVersion = '6.5.1'
+def browserUpVersion = '2.0.1'
+def postgresVersion = '42.4.0'
+
+def appEnvName = System.getenv("APP_DOMAIN_NAME_PREFIX") == null ? "prod" : System.getenv("APP_DOMAIN_NAME_PREFIX")
+def onlyPaymentsTest = System.getenv("ONLY_PAYMENTS_TEST")
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.testng/testng
+    // TestNG
+    implementation 'org.testng:testng:' + testNGVersion
+    // RestAssured
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    implementation 'io.rest-assured:rest-assured:' + restAssuredVersion
+    testImplementation 'org.projectlombok:lombok:1.18.22'
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compileOnly 'org.projectlombok:lombok:' + lombokVersion
+    annotationProcessor 'org.projectlombok:lombok:' + lombokVersion
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation 'com.fasterxml.jackson.core:jackson-databind:' + jacksonVersion
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.0'
+    // https://mvnrepository.com/artifact/com.sun.mail/javax.mail
+    implementation 'com.sun.mail:javax.mail:' + javaxMailVersion
+    // https://mvnrepository.com/artifact/org.jsoup/jsoup
+    implementation 'org.jsoup:jsoup:' + jsoupVersion
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
+    implementation 'io.qameta.allure:allure-testng:' + allureVersion
+    //selenide
+    // https://mvnrepository.com/artifact/com.codeborne/selenide
+    implementation 'com.codeborne:selenide:' + selenideVersion
+    // https://mvnrepository.com/artifact/com.browserup/browserup-proxy-core
+    implementation 'com.browserup:browserup-proxy-core:' + browserUpVersion
+    // https://mvnrepository.com/artifact/org.postgresql/postgresql
+    implementation 'org.postgresql:postgresql:' + postgresVersion
+}
+
+
+test {
+    useTestNG()
+}
