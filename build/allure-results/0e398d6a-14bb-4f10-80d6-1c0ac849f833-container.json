@@ -1,1 +1,0 @@
-{"uuid":"0e398d6a-14bb-4f10-80d6-1c0ac849f833","name":"Gradle test","children":["bfe5beed-6062-472d-ba52-e3274450df06"],"befores":[{"name":"Настройка вебдрайвера","status":"passed","stage":"finished","description":"Настройка вебдрайвера","steps":[],"attachments":[],"parameters":[],"start":1674733284000,"stop":1674733288644}],"afters":[],"start":1674733283824,"stop":1674733296470}
