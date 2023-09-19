@@ -15,6 +15,7 @@ public class FootballFNKTest extends BaseUiTest{
         openMainPage("https://football.kulichki.net/");
         new FNKPage()
                 .championsItaly()
-                .checkPoints(Teams.MILAN.getName());
+                .checkPoints(Teams.MILAN.getName())
+                .checkPoints(Teams.ATALANTA.getName());
     }
 }

@@ -6,13 +6,12 @@ import com.google.gson.JsonObject;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selenide.$x;
-import static com.codeborne.selenide.Selenide.open;
 import static utilities.JsonReader.getJsonObjectFromFile;
 
 public class FNKPage {
     @Step("Открываем чемпионат Италии")
     public FNKPage championsItaly(){
-        $x("//a[@href= '/italy/' and text() = 'Италия']").click();
+        $x("//a[@href= '/italy/' and text() = 'италия']").click();
         SelenideElement text = $x("//b[@style ='font-size: 16px;']");
 
         String actual = text.getText();

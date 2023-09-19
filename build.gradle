@@ -27,11 +27,12 @@ def restAssuredVersion = '4.4.0'
 def lombokVersion = '1.18.22'
 def jacksonVersion = '2.13.1'
 def javaxMailVersion = '1.6.2'
-def jsoupVersion = '1.14.3'
+def jsoupVersion = '1.15.4'
 def allureVersion = '2.18.1'
-def selenideVersion = '6.5.1'
+def selenideVersion = '6.12.2'
 def browserUpVersion = '2.0.1'
 def postgresVersion = '42.4.0'
+def jsoupXpathVersion = '2.5.2'
 
 def appEnvName = System.getenv("APP_DOMAIN_NAME_PREFIX") == null ? "prod" : System.getenv("APP_DOMAIN_NAME_PREFIX")
 def onlyPaymentsTest = System.getenv("ONLY_PAYMENTS_TEST")
@@ -64,6 +65,10 @@ dependencies {
     implementation 'com.browserup:browserup-proxy-core:' + browserUpVersion
     // https://mvnrepository.com/artifact/org.postgresql/postgresql
     implementation 'org.postgresql:postgresql:' + postgresVersion
+    // https://mvnrepository.com/artifact/us.codecraft/xsoup
+    implementation 'cn.wanghaomiao:JsoupXpath:' + jsoupXpathVersion
+
+
 }
 
 
