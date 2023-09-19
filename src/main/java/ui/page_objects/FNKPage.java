@@ -11,7 +11,7 @@ import static utilities.JsonReader.getJsonObjectFromFile;
 public class FNKPage {
     @Step("Открываем чемпионат Италии")
     public FNKPage championsItaly(){
-        $x("//a[@href= '/italy/' and text() = 'Италия']").click();
+        $x("//a[@href= '/italy/' and text() = 'италия']").click();
         SelenideElement text = $x("//b[@style ='font-size: 16px;']");
 
         String actual = text.getText();
