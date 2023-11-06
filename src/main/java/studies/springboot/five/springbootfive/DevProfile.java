@@ -1,4 +1,4 @@
-package ru.netology.springbootfive;
+package studies.springboot.five.springbootfive;
 
 public class DevProfile implements ru.netology.springbootfive.SystemProfile {
     @Override
