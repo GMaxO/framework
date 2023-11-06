@@ -45,6 +45,7 @@ dependencies {
     // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
     implementation 'io.rest-assured:rest-assured:' + restAssuredVersion
     testImplementation 'org.projectlombok:lombok:1.18.22'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     compileOnly 'org.projectlombok:lombok:' + lombokVersion
     annotationProcessor 'org.projectlombok:lombok:' + lombokVersion
@@ -67,6 +68,13 @@ dependencies {
     implementation 'org.postgresql:postgresql:' + postgresVersion
     // https://mvnrepository.com/artifact/us.codecraft/xsoup
     implementation 'cn.wanghaomiao:JsoupXpath:' + jsoupXpathVersion
+    // для Нетологии
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.testcontainers:junit-jupiter:1.18.3'
 
 
 }
