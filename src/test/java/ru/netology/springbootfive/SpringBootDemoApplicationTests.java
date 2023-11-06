@@ -1,4 +1,4 @@
-package ru.netology.springbootdemo;
+package ru.netology.springbootfive;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

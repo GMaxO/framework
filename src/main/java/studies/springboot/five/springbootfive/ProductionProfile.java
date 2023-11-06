@@ -1,4 +1,4 @@
-package ru.netology.systemProfile;
+package ru.netology.springbootfive;
 
 public class ProductionProfile implements SystemProfile {
     @Override

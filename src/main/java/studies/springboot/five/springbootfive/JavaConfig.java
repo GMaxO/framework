@@ -1,14 +1,11 @@
-package ru.netology.configuration;
+package ru.netology.springbootfive;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import ru.netology.systemProfile.DevProfile;
-import ru.netology.systemProfile.ProductionProfile;
-import ru.netology.systemProfile.SystemProfile;
 
 @Configuration
-public class JavaConfiguration {
+public class JavaConfig {
     @Bean
     @ConditionalOnProperty(value = "netology.profile.dev", havingValue = "true")
     public SystemProfile devProfile() {
