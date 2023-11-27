@@ -1,0 +1,9 @@
+POST https://auth.chronos.mg/api/auth/login
+
+Body: 
+{"channel":"chron.autotest103@rambler.ru","password":"b1$KHg8b(&P3_w469"}
+
+Headers:
+[Accept=*/*, Content-Type=application/json]
+
+Cookies:

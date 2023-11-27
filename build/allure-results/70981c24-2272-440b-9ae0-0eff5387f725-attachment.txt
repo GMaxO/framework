@@ -1,0 +1,9 @@
+GET https://auth.chronos.mg/api/user/info
+
+
+
+Headers:
+[Accept=*/*, Content-Type=application/json]
+
+Cookies:
+jid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjI5MzQ2NDAsInVzZXJJZCI6IjIzMzgwMyIsInR5cGUiOiJlbWFpbCIsInNlY3VyZSI6dHJ1ZSwiZmlyc3ROYW1lIjoiVXNlciAxMDMiLCJsYXN0TmFtZSI6IiIsImF2YXRhclVybCI6bnVsbCwiZW1haWwiOiJjaHJvbi5hdXRvdGVzdDEwM0ByYW1ibGVyLnJ1IiwicGhvbmVOdW1iZXIiOm51bGwsImlhdCI6MTcwMDU1NTA0MywiZXhwIjoxNzAwNTU1OTQzfQ.J_gPZzU4S2VyO2tPTe8I5DfMX-MgblBtLFHVXRjerX8;Path=/;Domain=auth.chronos.mg;Max-Age=900;Expires=21.11.2023, 8:39

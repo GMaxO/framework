@@ -1,0 +1,14 @@
+Timing: 951ms
+
+HTTP/1.1 200 OK
+
+Body:
+{
+    "jid": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjI5MzQ2MzEsInVzZXJJZCI6IjIzMzgwMyIsInR5cGUiOiJlbWFpbCIsInNlY3VyZSI6dHJ1ZSwiZmlyc3ROYW1lIjoiVXNlciAxMDMiLCJsYXN0TmFtZSI6IiIsImF2YXRhclVybCI6bnVsbCwiZW1haWwiOiJjaHJvbi5hdXRvdGVzdDEwM0ByYW1ibGVyLnJ1IiwicGhvbmVOdW1iZXIiOm51bGwsImlhdCI6MTcwMDU1NDk1MiwiZXhwIjoxNzAwNTU1ODUyfQ.Wm7B9eIuQXGwnzEYRlqU2_c1erJjfLeoU7BifiFor1A"
+}
+
+Headers:
+[Date=Tue, 21 Nov 2023 08:22:32 GMT, Content-Type=application/json; charset=utf-8, Transfer-Encoding=chunked, Connection=keep-alive, vary=Origin, access-control-allow-credentials=true, set-cookie=jid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjI5MzQ2MzEsInVzZXJJZCI6IjIzMzgwMyIsInR5cGUiOiJlbWFpbCIsInNlY3VyZSI6dHJ1ZSwiZmlyc3ROYW1lIjoiVXNlciAxMDMiLCJsYXN0TmFtZSI6IiIsImF2YXRhclVybCI6bnVsbCwiZW1haWwiOiJjaHJvbi5hdXRvdGVzdDEwM0ByYW1ibGVyLnJ1IiwicGhvbmVOdW1iZXIiOm51bGwsImlhdCI6MTcwMDU1NDk1MiwiZXhwIjoxNzAwNTU1ODUyfQ.Wm7B9eIuQXGwnzEYRlqU2_c1erJjfLeoU7BifiFor1A; Max-Age=900; Domain=auth.chronos.mg; Path=/; Expires=Tue, 21 Nov 2023 08:37:32 GMT, set-cookie=rid=2drmPCuaaw8l5GfNBz7Hwr2qqtariRlQtSAtkDlnJQ8%3D; Max-Age=2592000; Domain=auth.chronos.mg; Path=/; Expires=Thu, 21 Dec 2023 08:22:32 GMT, etag=W/"179-buvdwGj0XDTv6tQPx/HdSdCiT+I", x-envoy-upstream-service-time=175, ci-service-version=new, ci-service-version=new, ci-service-version-example=Valid values for ci-service-version header are: old, new, internal-old, internal-new, ci-service-version-example=Valid values for ci-service-version header are: old, new, internal-old, internal-new, cf-cache-status=DYNAMIC, report-to={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QRh%2FasOd4L0y9cDZ51TYRSzR4T0OM8oI2kF%2FNShD9lcimsJUyz5lrhxeUDxsYmSWMEmVTcG4ucBjlW2q1ChpZFnplPYdsCNGTATaHJ3hvl11oY5tm0QUky82sjndAcqb5O9WZOqI"}],"group":"cf-nel","max_age":604800}, nel={"success_fraction":0,"report_to":"cf-nel","max_age":604800}, Content-Encoding=gzip, alt-svc=h3=":443"; ma=86400, Server=cloudflare, CF-RAY=829786867f8c5bbb-VIE]
+
+Cookies:
+{jid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOjI5MzQ2MzEsInVzZXJJZCI6IjIzMzgwMyIsInR5cGUiOiJlbWFpbCIsInNlY3VyZSI6dHJ1ZSwiZmlyc3ROYW1lIjoiVXNlciAxMDMiLCJsYXN0TmFtZSI6IiIsImF2YXRhclVybCI6bnVsbCwiZW1haWwiOiJjaHJvbi5hdXRvdGVzdDEwM0ByYW1ibGVyLnJ1IiwicGhvbmVOdW1iZXIiOm51bGwsImlhdCI6MTcwMDU1NDk1MiwiZXhwIjoxNzAwNTU1ODUyfQ.Wm7B9eIuQXGwnzEYRlqU2_c1erJjfLeoU7BifiFor1A, rid=2drmPCuaaw8l5GfNBz7Hwr2qqtariRlQtSAtkDlnJQ8%3D}

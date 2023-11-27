@@ -1,9 +1,0 @@
-version: '2'
-
-services:
-  app1:
-    image: 'spring-app/authorise'
-    container_name: 'spring-app1'
-    build: ./
-    ports:
-      - 8080:8080

@@ -1,0 +1,38 @@
+Timing: 384ms
+
+HTTP/1.1 200 OK
+
+Body:
+{
+    "id": "233803",
+    "userId": "233803",
+    "firstName": "User 103",
+    "lastName": "",
+    "astrologyLevel": null,
+    "avatarUrl": null,
+    "email": "chron.autotest103@rambler.ru",
+    "phoneNumber": null,
+    "birth": {
+        "dateTime": {
+            "date": "12.12.1999",
+            "time": "12:12:12",
+            "gmt": 1,
+            "originalDate": "12.12.1999"
+        },
+        "place": {
+            "lat": 49.61167,
+            "lon": 6.13,
+            "name": "Люксембург, Luxembourg, Люксембург"
+        }
+    },
+    "gender": null,
+    "language": "ru",
+    "partner": null,
+    "createdAt": "2022-11-30T11:45:27.971Z"
+}
+
+Headers:
+[Date=Tue, 21 Nov 2023 08:24:04 GMT, Content-Type=application/json; charset=utf-8, Transfer-Encoding=chunked, Connection=keep-alive, vary=Origin, access-control-allow-credentials=true, etag=W/"1c0-Fr5zl8TrxJNHttkvPECpfD4uo1s", x-envoy-upstream-service-time=58, ci-service-version=new, ci-service-version=new, ci-service-version-example=Valid values for ci-service-version header are: old, new, internal-old, internal-new, ci-service-version-example=Valid values for ci-service-version header are: old, new, internal-old, internal-new, cf-cache-status=DYNAMIC, report-to={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MzmoSN2w6K2ZLdUOC2XnO0yAOGARjsUVQ7sH3hejc1qisHKxNx8nzQN4gB6WpdKLOGi1L9D%2BVWB9PhgIUr9FmK2DfvD8b%2B%2BWj4W1ijOvEDxZJSlA%2FrKTuYS80DIBWtygHNM396JN"}],"group":"cf-nel","max_age":604800}, nel={"success_fraction":0,"report_to":"cf-nel","max_age":604800}, Content-Encoding=gzip, alt-svc=h3=":443"; ma=86400, Server=cloudflare, CF-RAY=829788c22bb05bb1-VIE]
+
+Cookies:
+{}

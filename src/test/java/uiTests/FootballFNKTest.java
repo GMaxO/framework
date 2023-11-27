@@ -3,8 +3,8 @@ package uiTests;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import org.testng.annotations.Test;
-import ui.enums.Teams;
-import ui.page_objects.FNKPage;
+import webUi.enums.Teams;
+import webUi.page_objects.FNKPage;
 
 @Epic("UI тестирование")
 public class FootballFNKTest extends BaseUiTest{
